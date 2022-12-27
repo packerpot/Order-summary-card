@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Red Hat Display;
+    background: hsl(225, 100%, 98%);
+    background-image: url("images\pattern-background-desktop.png");
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 26%;
+    border-radius: 10px;
+    background: white;
+    margin-top: 3em;
+}
+
+.mid_sec {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container .model {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.container .head {
+    padding: 1.25em;
+    padding-bottom: 0.5em;
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.container .info {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 0.9em;
+    margin: 0 2em 0.5em 2em;
+}
+
+.mid_sec {
+    background: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 1.25em;
+}
+
+.mid_sec img {
+    width: 5em;
+    padding: 5px 15px;
+
+}
+
+.mid_sec h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+}
+
+.mid_sec p {
+    color: hsl(224, 23%, 55%);
+    font-size: 10px;
+}
+
+.mid_sec .chnge {
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    margin-left: 5em;
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+.container .btn_ {
+    background: hsl(245, 75%, 52%);
+    padding: 10px 5em;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0.3em 0.2em hsla(245, 75%, 52%);
+
+}
+
+.container .cnl_ordr {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin: 1.25em;
+}
